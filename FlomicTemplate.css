@@ -1,0 +1,549 @@
+*
+{
+	box-sizing: border-box;
+}
+/*@media only screen and (min-width: 578px) and (max-width: 1200px) {
+  body {
+    width: 100%;
+  }
+}*/
+/*Left Side*/
+.side
+{
+	position: fixed;
+	background-color: #3c3e44;
+	width: 25%;
+	height: 100vh;
+}
+.img
+{
+	margin-top: 40px;
+	position: relative;
+	width: 100%;
+	float: left;
+}
+
+ ul li a
+{
+	padding: 16px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	display: inline-block;
+
+}
+ul li 
+{	
+	text-align: center;
+	margin-left: -40px;
+}
+ul
+{
+	position: relative;
+	width: 100%;
+	float: left;
+	margin-top: 40px;
+}
+/*Anchor*/
+.home
+{
+	color: blue;
+	border-left: 4px solid blue;
+	border-bottom: 1px ridge grey;
+	background-color: #696969;
+}
+.about
+{
+	border-left: 4px solid orange;
+	border-bottom: 1px ridge grey;
+	background-color: #696969;
+}
+.services
+{
+	border-left: 4px solid violet;
+	border-bottom: 1px ridge grey;
+	background-color: #696969;
+}
+.port
+{
+	border-left: 4px solid lightgreen;
+	border-bottom: 1px ridge grey;
+	background-color: #696969;
+}
+.Contact
+{
+	border-left: 4px solid magenta;
+	background-color: #696969;
+}
+/*Top Background image*/
+.bg-img
+{
+	background-image: url("images/e.jpg");
+	background-repeat: no-repeat;
+	position: relative;
+	width:74.7%;
+	float: right;
+	height: 450px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.bg-img h1 
+{
+	margin-top: 180px;
+	color: white;
+}
+.bg-img p
+{
+	font-size: 16px;
+	color: rgba(245,255,250,0.5);
+}
+.bg-img button
+{
+	padding: 12px;
+	background-color: #00BFFF;
+	color: white;
+	text-transform: uppercase;
+	border:none;
+}
+/*Welcome*/
+.section
+{
+	position: relative;
+	float: right;
+	width: 74.7%;	
+}
+.head
+{
+	font-size: 25px;
+	color: #00BFFF;
+	position: relative;
+	width: 74.7%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.section span
+{
+	color: #00BFFF;
+}
+.para
+{
+	font-size: 15px;
+	position: relative;
+	width: 74.7%;
+	margin:0 auto;
+	text-align: center;
+}
+/*About Us*/
+.button
+{
+	background-color: rgba(255,165,0,0.8);
+	color: white;
+	font-family: @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Source+Sans+Pro:wght@200&display=swap');;
+	text-transform: uppercase;
+	font-size: 18px;
+	border:none;
+	padding: 12px;
+	margin-left: 40px;
+}
+.section2
+{
+	position: relative;
+	width: 74.7%;
+	float: right;
+}
+.hr
+{
+	position: relative;
+	width: 92%;
+	text-align: center;
+	border:1px solid rgba(255,165,0,0.8);
+	margin: 0 auto;
+	/*margin-right: 40px;*/
+}
+/*Team*/
+.row
+{
+	display: flex;
+	position: relative;
+	width: 74.7%;
+	float: right;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+.column
+{
+	width: 25%;
+	margin: 20px auto;
+
+}
+.column img
+{
+	width: 100%;
+	height: 250px;
+	position: relative;
+}
+.column h4
+{
+	color: brown;
+	font-family: @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@300&family=Source+Sans+Pro:wght@200&display=swap');
+	text-align: center;
+}
+.column p
+{
+	text-align: center;
+	font-size: 15px;
+}
+
+/*Management team*/
+.section3
+{
+	display: flex;
+	position: relative;
+	width: 74.7%;
+	float: right;
+	justify-content: center;
+	margin: 0 auto;	
+}
+.left
+{
+	position: relative;
+	width: 45%;
+	float: left;
+	margin: 0 auto;
+	padding: 20px;
+}
+.right
+{
+	position: relative;
+	width: 45%;
+	float: right;
+	margin: 0 auto;
+	padding: 20px;
+}
+.right>.image
+{
+	width: 250px;
+	height: 250px;
+}
+.left .right
+{
+	margin: 0 auto;
+}
+.h3 .p
+{
+	float: left;
+	margin: 0 auto;
+}
+.h3
+{
+	color: brown;
+	font-family: @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@300&family=Source+Sans+Pro:wght@200&display=swap');
+}
+/*Services*/
+.button1
+{
+	background-color: #8A2BE2;
+	padding: 12px 18px;
+	color: white;
+	margin: 0 auto;
+	font-family: @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Source+Sans+Pro:wght@200&display=swap');
+	text-transform: uppercase;
+	font-size: 18px;
+	border:none;
+	margin-left: 40px;
+
+}
+.services1
+{
+	position: relative;
+	width: 74.7%;
+	float: right;
+}
+.hr1
+{
+	position: relative;
+	width: 92%;
+	border:1px solid #8A2BE2;
+	margin: 0 auto;
+	text-align: center;
+}
+/*Icons*/
+.icons
+{
+	display: flex;
+	position: relative;
+	width: 74.7%;
+	float: right;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+#fas
+{
+	width: 25%;
+	margin: 20px auto;
+	background-color: #8A2BE2;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+#fas>span
+{
+	font-family: @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@300&family=Source+Sans+Pro:wght@200&display=swap');
+	font-size: 20px;
+	justify-content: center;
+}
+/*Our skills*/
+.our_skills
+{
+	display: flex;
+	position: relative;
+	width: 74.7%;
+	margin: 0 auto;
+	float: right;
+	justify-content: center;
+}
+.skills
+{
+	position: relative;
+	float: left;
+	width: 45%;
+	margin: 20px auto;
+	padding: 20px;
+}
+.progress
+{
+	position: relative;
+	float: right;
+	width: 45%;
+	margin: 20px auto;
+	padding: 20px;
+}
+.container1
+{
+	background-color: rgb(192, 192, 192); 
+    width: 80%;
+    border-radius: 5px;
+}
+.skill
+{
+    background-color: #8A2BE2; 
+    color: white; 
+    padding: 1%; 
+    text-align: right; 
+    font-size: 20px; 
+}
+.g 
+{ 
+    width: 90%; 
+    text-align: center;
+} 
+.h 
+{ 
+    width: 70%;
+    text-align: center;
+}
+.w
+{
+	width: 66%;
+	text-align: center;
+}
+.m
+{
+	width: 88%;
+	text-align: center;
+}
+/*Portfolio*/
+.button2
+{
+	background-color: #00ff7f;
+	padding: 12px 18px;
+	color: white;
+	margin: 0 auto;
+	font-family: @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Source+Sans+Pro:wght@200&display=swap');
+	text-transform: uppercase;
+	font-size: 18px;
+	border:none;
+	margin-left: 40px;
+}
+.portfolio
+{
+	position: relative;
+	width: 74.7%;
+	float: right;
+}
+.hr2
+{
+	position: relative;
+	width: 92%;
+	border:1px solid #00ff7f;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/*Portfolio Image*/
+.port1
+{
+	display: flex;
+	position: relative;
+	width: 74.7%;
+	float: right;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+.port-img
+{
+	width: 25%;
+	margin: 20px auto;
+}
+.port-img img
+{
+	width: 100%;
+	height: 250px;
+	position: relative;
+}
+.port-img h4
+{
+	color: #00ff7f;
+	font-family: @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@300&family=Source+Sans+Pro:wght@200&display=swap');
+	text-align: center;
+}
+.port-btn
+{
+	position: relative;
+	width: 74.7%;
+	float: right;
+	text-align: center;
+
+}
+.port-btn button
+{
+	color: white;
+	background-color: #00ff7f;
+	padding: 12px;
+	border:none;
+	margin: 20px auto;
+}
+/*Contact us*/
+.button3
+{
+	background-color: #D42068;
+	padding: 12px 18px;
+	color: white;
+	margin: 0 auto;
+	font-family: @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Source+Sans+Pro:wght@200&display=swap');
+	text-transform: uppercase;
+	font-size: 18px;
+	border:none;
+	margin-left: 40px;
+}
+.contact1
+{
+	position: relative;
+	width: 74.7%;
+	float: right;
+}
+.hr3
+{
+	position: relative;
+	width: 92%;
+	border:1px solid #D42068;
+	margin: 0 auto;
+	text-align: center;
+}
+/*Map*/
+.map
+{
+	display: flex;
+	position: relative;
+	width: 74.7%;
+	float: right;
+	margin: 0 auto;
+}
+.map img
+{
+	position:relative;
+	width: 100%;
+	height: 350px;
+	margin: 20px 40px;
+}
+/*Form*/
+.form
+{
+	display: flex;
+	position: relative;
+	width: 74.7%;
+	float: right;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+.form1
+{
+	width: 25%;
+	margin: 20px auto;
+}
+.form1 form input
+{
+	padding: 10px 35px;
+}
+.form2
+{
+	display: flex;
+	position: relative;
+	width: 74.7%;
+	float: right;
+	margin: 0 auto;
+}
+.form2 form
+{
+	margin: 0 auto;
+}
+.btn
+{
+	position: relative;
+	width: 74.7%;
+	float: right;
+	margin: 20px auto;
+}
+.btn button
+{
+	color: white;
+	background-color: #D42068;
+	padding: 12px;
+	border:none;
+	margin: auto 40px;
+}
+/*Icon*/
+footer
+{
+	position: relative;
+	width: 74.6%;
+	float: right;
+	background-color: #3c3e44;
+	padding-bottom: 30px;
+	padding-left: 2px;
+}
+.icon
+{
+	position: relative;
+	width: 100%;
+	background-color: #696969;
+	padding: 50px;
+	text-align: center;
+}
+#far
+{
+	color: white;
+	background-color: #3c3e44;
+	padding: 7px;
+}
+.copy
+{
+	position: relative;
+	width: 90%;
+	margin: 0 auto;
+}
+.copy p
+{
+	color: lightgrey;
+}
